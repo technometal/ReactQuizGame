@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* background images */
+
+.celebritiesBg {
+  background-image: url(../src/img/celebritiesBg.png);
+}
+.celebritiesGenBg {
+  background-image: url(../src/img/background-5994809_1920.jpg);
+}
+.filmsBg {
+  background-image: url(../src/img/filmsBg.jpg);
+}
+.genKnowledgeBg {
+  background-image: url(../src/img/books-2818949_1920.jpg);
+}
+.geographyBg {
+  background-image: url(../src/img/geographyBg.jpg);
+  background-size: contain;
+}
+.historyBg {
+  background-image: url(../src/img/historyBg.jpg);
+}
+.musicBg {
+  background-image: url(../src/img/musicBg.jpg);
+}
+.sportsBg {
+  background-image: url(../src/img/sportsBg.jpg);
+}
+.tvBg {
+  background-image: url(../src/img/tv-627876_1280.jpg);
+  background-position: right;
+}
+.vehiclesBg {
+  background-image: url(../src/img/vehicleBg.jpg);
+}
+.aboutBg {
+  background-image: url(../src/img/nathan-dumlao-J2gEgTPM_OA-unsplash.jpg);
+}
+.quizImg {
+  margin: 1% auto;
+  width: 60vw;
+  height: 30vh;
+  background-image: url(../src/img/rsz_quiz-6064477_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*little guy images*/
+
+.guyCelebrities {
+  background-image: url(../src/img/guyCelebrities.png);
+}
+.guyFilms {
+  background-image: url(../src/img/guyFilms.png);
+}
+.guyGenKnowledge {
+  background-image: url(../src/img/guyGeneral.png);
+}
+.guyGeography {
+  background-image: url(../src/img/imageedit_2_8397560105.png);
+}
+.guyHistory {
+  background-image: url(../src/img/guyHistory.png);
+}
+.guyMusic {
+  background-image: url(../src/img/guyMusic2.png);
+}
+.guySports {
+  background-image: url(../src/img/guySports.png);
+}
+.guyTv {
+  background-image: url(../src/img/guyTv.png);
+}
+.guyVehicles {
+  background-image: url(../src/img/guyVehicles.png);
+}
+
+/*main class for the little guy*/
+.guy {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px 0 0 50px;
+}
+
+/*general class for backgrounds */
+.generalBg {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*the answers container*/
+.genContainer {
+  background-color: black;
+  height: 350px;
+  width: 800px;
+  margin: 20px 0 0 100px;
+}
+
+/*general main container*/
+.mainContainer {
+  width: 900px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 20px 20px;
+  margin: 14% auto;
+  background-color: black;
+  color: rgb(228, 163, 41);
+}
+
+/*main container about page*/
+.aboutContainer {
+  width: 700px;
+  height: 580px;
+  border: 2px solid black;
+  border-radius: 20px 20px;
+  margin: 2% auto;
+  background-color: black;
+  color: rgb(228, 163, 41);
+  padding: 30px 70px;
+}
+
+/*list about page*/
+.aboutContainer ul {
+  text-align: justify;
+  margin-left: 80px;
+}
+h2 {
+  margin: 60px 80px 0 80px;
+}
+.aboutContainer span {
+  color: white;
+  font-weight: bold;
+}
+.headingBox {
+  height: 100px;
+}
+
+/*next button styles*/
+#nextBtn {
+  position: fixed;
+  outline: none !important;
+  bottom: 250px;
+  right: 520px;
+  width: 120px;
+  background: repeating-linear-gradient(
+    45deg,
+    #ffc800,
+    #ffc800 5px,
+    #ffc200 5px,
+    #ffc200 10px
+  );
+  font-family: "Carter One", sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 1px black, -2px 2px 1px rgb(26, 24, 24),
+    2px -2px 1px rgb(36, 35, 35), -2px -2px 1px rgb(36, 32, 32),
+    0px 2px 1px black, 0px -2px 1px rgb(5, 5, 5), 0px 4px 1px gray,
+    2px 4px 1px gray, -2px 4px 1px gray;
+  border: none;
+}
+
+#nextBtn:focus,
+#nextBtn:active,
+.outlineBtn:focus,
+.outlineBtn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+.nextBtn:hover,
+.backBtn:hover,
+.genBtn:hover,
+.helpBtn:hover {
+  background-color: rgb(228, 163, 41);
+  color: black;
+  border: 2px solid black;
+}
+
+/*score box styles*/
+.coin {
+  width: 75px;
+  height: 75px;
+  background-image: url(../src/img/rsz_bag-147782_1280.png);
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+.scoreBox {
+  width: 220px;
+  height: 90px;
+  color: rgb(228, 163, 41);
+  background-color: black;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 2;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  padding-left: 20px;
+  border-radius: 40px 40px;
+}
+.scoreBox div {
+  display: inline-block;
+}
+.score {
+  margin-top: 10px;
+}
+
+/*home page background*/
+.home {
+  width: 60vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../src/img/quiz-2074324_1920.png);
+  margin: 5% auto;
+}
+
+/*home page main background*/
+.homeBg {
+  background-image: url(../src/img/nathan-dumlao-J2gEgTPM_OA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+/*general page background*/
+.gen-bg {
+  background-image: url(../src/img/category-homepage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+footer {
+  padding: 30px;
+  width: 100%;
+  background-color: #c79c7196;
+  position: fixed;
+  bottom: 0;
+  line-height: 0.5;
+}
+
+/*box for the audio*/
+.playBox {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  color: white;
+  padding: 12px;
+}
+
+/*the box for categories*/
+.categoryBox {
+  width: 220px;
+  height: 150px;
+  background: rgb(228, 163, 41);
+  border-radius: 20px 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.categoryBox a,
+a:visited {
+  color: black;
+}
+.categoryBox a:hover {
+  text-decoration: none;
+}
+
+/*general helping options button*/
+.helpBtn {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  color: rgb(228, 163, 41);
+  font-size: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+/*ask a friend*/
+#askFriend {
+  position: fixed;
+  z-index: 2;
+  right: 300px;
+  display: block;
+  top: 370px;
+}
+
+/*50/50*/
+#help50 {
+  position: fixed;
+  z-index: 2;
+  right: 300px;
+  display: block;
+  top: 520px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+
+/*back button*/
+.backBtn {
+  position: fixed;
+  z-index: 1;
+  left: 100px;
+  bottom: 50px;
+  background-color: black;
+  color: rgb(228, 163, 41);
+  font-size: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 40px 40px;
+}
+.generalContainer {
+  margin-top: 170px;
+}
+
+/* play button*/
+.playBtn {
+  width: 300px;
+  height: 80px;
+  font-size: 50px;
+  font-weight: bold;
+  background: url(../src/img/rsz_quiz-2074324_1920.png);
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 40px 40px;
+  border: #603813 3px solid;
+  color: #603813;
+  text-shadow: black 2px 2px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*going to about page*/
+.aboutBtn {
+  background: url(../src/img/rsz_quiz-2074324_1920.png);
+  width: 120px;
+  height: 50px;
+  border-radius: 40px 40px;
+  border: #603813 3px solid;
+  color: #603813;
+  text-shadow: black 1px 1px;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: -150px;
+}
+.heart {
+  color: red;
+}
+.disabledBtn {
+  pointer-events: none;
+}
